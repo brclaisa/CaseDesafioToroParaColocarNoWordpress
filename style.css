@@ -1,0 +1,124 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #ededed;
+    min-height: 100vh;
+  }
+  
+header {
+    background-color: #ededed; 
+    box-shadow: 0px 0px 6px #b9b9b9; 
+    text-align: left;
+    width: 100vw;
+    padding: 20px;
+    flex: 0 1 auto;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+  }
+  
+  .blog-letter {
+    margin-left: 10px; 
+    font-weight: bold;
+  }
+
+.logo {
+    max-width: 120px; 
+    display: block;
+    margin: left; 
+}
+
+.publis{
+    padding: 30px;
+
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post {
+    width: 350px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#carregar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ec0101;
+    color: #ededed;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border-color: #ec0101;
+    text-align: center;
+}
+
+.blog-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.category {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #000;
+    line-height: 1.5;
+}
+
+.meta {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    background-color: #fff;
+    padding: 20px;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.content{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.arrow {
+    color: #ec0101; 
+    font-size: 14px; 
+    margin-left: 10px;
+}
+
+.botao-investir {
+    background-color: #ec0101;
+    color: #ededed;
+    padding: 10px 20px;
+    text-align: center;
+    float: right;
+    font-size: 14px;
+    margin-top: 25px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Toro Investimentos - Blog </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+        <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logotoro.png" alt="Logo TORO">
+        <span class="blog-letter">Blog</span>
+      </div>
+    </header>
+
+    <div class="publis">
+        <h2>Últimas Publicações</h2>
+    </div>
+
+    <main>
+        <div class="posts">
+        <button id="carregar">Carregar mais posts</button>
+    </div>
+    </main>
+    <?php wp_footer(); ?>
+    
+</body>
+</html>
